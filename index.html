@@ -18,7 +18,7 @@
 
 
         <!-- This is the header section -->
-    <header class="header" active data-header>  
+    <header class="header"  data-header>  
         <div class="container"> 
             <a href="#" class="logo">  
                 <img src="images/logo.png" width="100px" height="100px">
@@ -29,7 +29,7 @@
             </h1>  -->
 
 
-            <nav class="navbar" active data-navbar> 
+            <nav class="navbar"  data-navbar> 
                 <ul class="navbar-list">  
                     <li class="nav-item">
                         <a href="#home" class="navbar-link" data-nav-link>Home</a>
@@ -57,14 +57,14 @@
 
             
             <div class="header-btn-group">  
-                <button class="search-btn" data-search-btn> 
+                <button class="search-btn" aria-label="Search" data-search-btn> 
                     <ion-icon name="search-outline"> </ion-icon>
                 </button>
 
             
                 <button class="btn-btn-hover"> Reservation</button> 
 
-                <button class="nav-toggle-btn" active data-menu-toggle-btn>  
+                <button class="nav-toggle-btn"  aria-label="Toggle Menu" data-menu-toggle-btn>  
                     <span class="line top"></span>
                     <span class="line middle"></span>
                     <span class="line bottom"></span>
@@ -81,7 +81,7 @@
 
     <!-- This is the search section --> 
 
-    <div class="search-container" active data-search-container>  
+    <div class="search-container"  data-search-container>  
         <div class="search-box">  
             <input class="search-input" type="search" name="search" placeholder="Type your foods here..."> 
 
@@ -646,11 +646,11 @@
             <section class="section section-divider gray delivery"> 
                 <div class="container"> 
                     <div class="delivery-content">  
-                        <h2 class="h2 section-title"> 
+                        <h2 class=" h2 section-title"> 
                             Our delivery is <span>Swift</span> and reliable
                         </h2> 
 
-                        <p class="section-title"> 
+                        <p class="section-text"> 
 
                             Stop and Chop, Ozoro is one of the best eateries you can find. We have amazing staff, good customer service and more. 
                         </p>  
@@ -662,7 +662,7 @@
 
                     <figure class="delivery-banner">  
 
-                        <img src="images/delivery-banner-bg.png" width="700" height="600"> 
+                        <img src="images/delivery-banner-bg.png" width="700" height="600" alt="this is a cloud" class="w-100"> 
 
 
                         <img src="images/delivery-boy.svg" width="1000" height="800" alt="delivery boy" class="w-100 delivery-img" data-delivery-boy>
@@ -1093,10 +1093,6 @@
 
 
 
-
-
-
-
     <footer class="footer"> 
         <div class="footer-top" > 
 
@@ -1247,6 +1243,8 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   
+
+    <script src="script.js" defer></script>
 
 </body>
 </html>
