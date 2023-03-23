@@ -70,13 +70,13 @@ window.addEventListener("scroll", function () {
     let activeScrollPos = window.scrollY; 
 
     if (lastScrollPos < activeScrollPos) {
-      deliveryBoyMove += 1; 
+      deliveryBoyMove++; 
     }else{ 
-      deliveryBoyMove -= 1; 
+      deliveryBoyMove--; 
     }
 
     lastScrollPos = activeScrollPos; 
-    deliveryBoy.style.transform = `translateX(${deliveryBoyMove})`; 
+    deliveryBoy.style.transform = `translateX(${deliveryBoyMove}px)`; 
   }
 }); 
 
